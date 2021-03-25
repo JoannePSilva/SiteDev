@@ -1,0 +1,39 @@
+
+body {
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+    border: blueviolet;
+}
+p{
+    margin-left: 30px;
+    font-size: 20px
+}
+
+em strong{
+    color:blueviolet;
+}
+#cloud{
+    width: 100%;
+}
+h2{
+    text-align: left;
+    margin-left: 60%;
+}
+
+.imagemconteudos{
+    width: 50%;
+    display: inline-block;
+}
+ol{
+    display:inline-block;
+    vertical-align: top;
+    width: 30%;
+    
+    
+}
+#tec{
+    width:50%
+}
