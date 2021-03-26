@@ -5,13 +5,11 @@ body {
 h1{
     text-align: center;
     margin: 10px;
-    border: blueviolet;
 }
 p{
     margin-left: 30px;
     font-size: 20px
 }
-
 em strong{
     color:blueviolet;
 }
@@ -20,20 +18,18 @@ em strong{
 }
 h2{
     text-align: left;
-    margin-left: 60%;
+    margin-left: 45%;    
 }
-
-.imagemconteudos{
-    width: 50%;
+.conteudos{
+background-color: blueviolet;
+padding:50px ;    
+}
+.iconteudos{
+    width:40%;
     display: inline-block;
 }
 ol{
     display:inline-block;
     vertical-align: top;
-    width: 30%;
-    
-    
-}
-#tec{
-    width:50%
+    width: 40%;   
 }
