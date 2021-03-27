@@ -21,15 +21,28 @@ h2{
     margin-left: 45%;    
 }
 .conteudos{
-background-color: blueviolet;
-padding:50px ;    
+    background-color:#f5f5dc ;
+    padding:50px ;
+    border-width: 6px; 
+    border-style: dashed dotted; 
+    border-color: black;
+    padding: 20px;    
 }
 .iconteudos{
     width:40%;
     display: inline-block;
+    
 }
 ol{
     display:inline-block;
     vertical-align: top;
     width: 40%;   
+}
+.assuntos_relacionados{
+    margin: 15px;
+    }   
+
+.arelacionados{
+    width:40%;
+    display: inline-block;  
 }
