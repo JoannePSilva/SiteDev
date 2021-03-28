@@ -11,18 +11,22 @@ p{
     margin-left: 30px;
     font-size: 20px
 }
-em strong{
+strong{
     color:blueviolet;
 }
 #cloud{
     width: 100%;
+}
+#missão{
+    text-align: left
+    margin-right:50%
 }
 h2{
     text-align: left;
     margin-left: 45%;    
 }
 .conteudos{
-    background-color:#d83c3c;
+    background-color:#c55656;
     padding:50px ;
     border-width: 6px; 
     border-style: dashed dotted; 
