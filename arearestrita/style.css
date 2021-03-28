@@ -30,8 +30,9 @@ body{
 h1{
     text-align: center;
 } 
-h2, h3{
-    
+h2, h3, p {
+    margin-left: 15px;
+    padding-right: 35%;
     text-align: justify;
     font-family: Asap, sans-serif;
 }
