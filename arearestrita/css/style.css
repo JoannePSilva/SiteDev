@@ -1,0 +1,197 @@
+body{
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+
+}
+
+h1, h2, h3{
+    font-family: Asap, sans-serif;
+    color: #000000;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightpink;
+       
+}
+
+nav> a{
+
+    text-decoration: none;
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 60px;
+    font-family: Yellowtail,sans-serif;
+}
+
+nav ul{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    list-style: none;
+    padding: 0;
+    width:100%;   
+
+}
+nav ul li{
+    text-align:center;
+    width:100%;
+    
+}
+
+nav ul li a{
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0; 
+    text-decoration: none; 
+    color: #FFFFFF;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+
+}
+
+header h1{
+    color: #000000;
+}
+
+header p{
+    margin-top: 20px;
+}
+}
+#elementos h1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+    
+#variaveis{
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:black;
+    padding-bottom: 30px;
+        
+  
+}
+#variaveis p{
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+
+#if {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+#while {
+    flex-direction: column;
+    text-align: center;
+    color: #000000;
+   
+   
+}
+#while p{
+    flex-direction: column;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+   
+}
+
+#while p em strong{
+    flex-direction: column;
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+   
+}
+
+#for {
+    flex-direction: column;
+    text-align: center;
+    color: #000000;
+   
+   
+}
+#for p{
+    flex-direction: column;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+   
+}
+
+#for p em strong{
+    flex-direction: column;
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+    
+   
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #0000ff;
+    font-size: 15px;
+    background-color: lightgray;
+}
+
+footer a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    
+}
+
+@media screen and (min-width= 768px){
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul{
+        flex-direction: row;
+        width:70%;
+    }
+
+    header{
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+
+    }
+    #elementos{
+        height: 200px;
+        height: 30vh;
+        justify-content: center;
+
+    }
+
+}
