@@ -9,6 +9,9 @@ body{
     
 }
 
+#glossario{
+    text-align: center;
+}
 .caixa-navegacao{
     position: relative;
     width: 940px;
