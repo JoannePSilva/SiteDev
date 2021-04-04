@@ -11,7 +11,7 @@ body{
 #principal h1{
     color:black;
 }
-.caixa-navegacao{
+#caixa-navegacao{
     position: relative;
     width: 940px;    
 }
