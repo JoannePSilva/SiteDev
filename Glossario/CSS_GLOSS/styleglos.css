@@ -1,6 +1,8 @@
 header {
     background: black;
     padding: 10px;
+        
+    
    
 }
 body{
@@ -11,7 +13,7 @@ body{
 
 .caixa-navegacao{
     position: relative;
-    width: 940px;
+    width: 100%;
     
 }
 
@@ -19,13 +21,14 @@ body{
     height:150px;
     width:150px;
     padding: 10px, 10px, 10px;
-    margin-left: 120px;    
+    margin-left: 70px;    
 }
 
 nav {
     position: absolute;
     top: 95px;
     right: 80px;
+
 }
 
 nav li {
