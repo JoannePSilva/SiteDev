@@ -51,8 +51,8 @@ nav a {
 }
 
 nav a:hover {
-    color: pink;
-    text-decoration: underline;  
+    color: rgb(224, 10, 142);
+    
 }
 
 h1{
@@ -154,6 +154,7 @@ footer a{
 
 footer a:hover {
     cursor: pointer;
+    color: rgb(224, 10, 142);
 }
 
 footer p{
