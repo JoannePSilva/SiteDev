@@ -118,6 +118,18 @@ ol{
 }
 
 
+.principal button:hover {
+    background-color: rgb(224, 10, 142);
+    -moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    -moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
 
 footer{
     text-align: center;
@@ -130,13 +142,18 @@ footer{
     left: 0;
     position: float;
     margin-top:475px;
+    
 }
 
 footer a{
     margin:30px;
     text-decoration: none;
     text-align: center;    
-    color: blue;    
+    color: white;   
+}
+
+footer a:hover {
+    cursor: pointer;
 }
 
 footer p{
