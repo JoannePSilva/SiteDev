@@ -1,0 +1,71 @@
+body{
+    width:auto;
+    background-color: #BDBDBD;
+}
+form{
+    background-color: #FFFFFF;
+    max-width: 25em;
+    width: 70%;
+    margin-top:50px;
+    padding: 20px;
+    position: relative;
+    transform: translate(70%);
+    left: 10%;
+    top: 25%;
+}
+
+h2{
+    color: #2E2E2E;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.input{
+    width:70%;
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 10px 10px 50px;
+    outline: 0;
+}
+
+.botao{
+    width: 75%;
+    color: white;
+    font: bold;
+    margin: 5px 20px 20px 50px;
+    padding: 15px 20px 15px 20px;
+    background: #2E2E2E;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color:#FA5882;
+    transition:1s;
+}
+
+a {
+    margin: 30px 10px 20px 120px;
+    color: #2E2E2E;
+    text-decoration: none;
+    }
+
+a:hover{
+    color:#FA5882;
+}    
+.rede-social{
+    color: darkgrey;
+    transform: translate(40%);
+    margin: 30px 10px 10px 5px;
+    width: 60%;
+    
+}
+.img{
+    width: 80%;
+    margin: 0 10px 10px 20px;
+    transform: translate(-30%);
+  }
+
