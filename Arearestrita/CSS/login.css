@@ -56,16 +56,23 @@ a {
 a:hover{
     color:#FA5882;
 }    
+
+.icon1{
+    margin:10px 10px 20px 10px;
+}
+
+.icon2{
+    margin:10px 10px 20px 10px;
+    transform: translate(-250%);
+} 
+
 .rede-social{
     color: darkgrey;
     transform: translate(40%);
-    margin: 30px 10px 10px 5px;
+    margin: 30px 0px 10px 5px;
     width: 60%;
     
 }
-.img{
-    width: 80%;
-    margin: 0 10px 10px 20px;
-    transform: translate(-30%);
-  }
+
+
 

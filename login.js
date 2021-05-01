@@ -7,11 +7,11 @@ function login(){
         if( email.value == "email@gmail.com" && password.value == "123456") {
 
             localStorage.setItem("acesso",true);      
-
+          
             window.location.href="index.html";  
                     
         }else{
-            alert("Acesso Negado. Tente novamente.");
+            alert("Login ou Senha inválidos. Tente novamente.");
         }
        return;
 }
